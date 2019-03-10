@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+ margin:0;
+ padding:0;
+}
+#login-form
+{
+ margin-top:70px;
+}
+table
+{
+ border:solid #ff00ff 1px;
+ padding:25px;
+ box-shadow: 0px 0px 1px rgba(2,2,2,4);
+  background:#0000ff;
+}
+table tr,td
+{
+ padding:15px;
+ //border:solid #e1e1e1 1px;
+}
+table tr td input
+{
+ width:97%;
+ height:45px;
+ border:solid #e1e1e1 1px;
+ border-radius:3px;
+ padding-left:10px;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#ffffff;
+ transition-duration:0.5s;
+ box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+table tr td button
+{
+ width:100%;
+ height:45px;
+ border:0px;
+ background:rgba(12,45,78,11);
+ background:-moz-linear-gradient(top, #595959 , #515151);
+ border-radius:3px;
+ box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+ color:#f9f9f9;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+ font-weight:bolder;
+ text-transform:uppercase;
+}
+table tr td button:active
+{
+ position:relative;
+ top:1px;
+}
+table tr td a
+{
+ text-decoration:none;
+ color:#00a2d1;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+}
+
+/* css for home page  */
+
+*
+{
+ margin:0;
+ padding:0;
+}
+#header
+{
+ width:100%;
+ height:100px;
+ background:#FF8000;
+ color:#ffffff;
+ font-family:Verdana, Geneva, sans-serif;
+}
+#header #left
+{
+ float:left;
+ position:relative;
+}
+#header #left label
+{
+ position:relative;
+ top:5px;
+ left:100px;
+ font-size:35px;
+}
+#header #right
+{
+ float:right;
+ position:relative;
+}
+#header #right #content
+{
+ position:relative;
+ top:10px;
+ right:100px;
+ color:#FF0000;
+}
+#header #right #content a
+{
+ color:#00a2d1;
+}
+.drop_menu {
+
+	background:#82A1EE;
+	color:#ffffff;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	font-family:Verdana, Geneva, sans-serif;
+	height:40px;
+}
+.drop_menu li { float:left; }
+.drop_menu li a {
+	padding:9px 22px;
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+	//background:#00FFFF;
+	color:#ffffff;
+}
+.drop_menu li:hover { position:relative; background:#0000FF; }
+.drop_menu li:hover ul {
+	left:0px;
+	top:30px;
+	background:#FFFFFF;
+	padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+	float:left;
+	padding:5px;
+	display:block;
+	width:210px;
+	text-indent:0px;
+	background:#82A1EE;
+}
+
+.drop_menu li:hover ul li a:hover { 
+	background:#0000FF; 
+}
+
+.drop_menu li.over ul {
+	display:block;
+}
+.drop_menu li:hover ul ul, .drop_menu li.over ul ul {
+	display:none;
+}
+/* SHOW SUBMENU 2 */
+.drop_menu ul li:hover ul, .drop_menu ul li.over ul {
+	top: 0px;
+	left: 100%;
+	display:block;
+}
+
+/* css for home page */
